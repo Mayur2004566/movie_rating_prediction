@@ -21,7 +21,7 @@ from sklearn.ensemble import RandomForestRegressor
 from sklearn.metrics import mean_squared_error, r2_score
 
 print("=" * 55)
-print("   🎬  Movie Rating Prediction using Regression")
+print(" Movie Rating Prediction using Regression")
 print("=" * 55)
 print("All libraries installed and imported successfully!\n")
 
@@ -174,7 +174,7 @@ print(f"  {'Linear Regression':<28} {lr_rmse:>8.4f}  {lr_r2:>8.4f}")
 print(f"  {'Random Forest Regressor':<28} {rf_rmse:>8.4f}  {rf_r2:>8.4f}")
 print("=" * 52)
 winner = "Random Forest Regressor" if rf_r2 >= lr_r2 else "Linear Regression"
-print(f"\n  🏆 Best Model : {winner}")
+print(f"\n Best Model : {winner}")
 
 # ══════════════════════════════════════════════════════════
 # STEP 8 — Evaluation Visualisations
